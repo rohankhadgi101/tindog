@@ -1,12 +1,23 @@
+body{
+}
+
 @media(min-width: 991px){
     .gradient-background{
         height: 100vh;
         display: flex;
         align-items: flex-end;
+        
     }
+}
+@media(max-width: 991px){
+    .gradient-background{
+        text-align: center;
+    }
+
 }
 
 .gradient-background{
+
     background: linear-gradient(300deg, #f0bd7a, #e0118b);
     background-size: 200% 200%;
     animation: gradient-animation 5s ease infinite;
@@ -23,7 +34,10 @@
         background-position: 0% 50%;
     }
 }
+.shadow-element{
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
 
+}
 .margin-top{
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -33,4 +47,28 @@
     width: 3rem;
     height: 3rem;
     border-radius: .75rem;
+}
+
+.profile-img{
+    height: 4rem;
+    border-radius: 50%;
+}
+h3{
+    font-family: 'poppins', sans-serif;
+}
+h2{
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+}
+p{
+    font-family: 'poppins', sans-serif;
+}
+
+/* ----------pricing-------------- */
+
+/* --------------footer--------------------- */
+.footer-background{
+    background-color: #230015;
 }
