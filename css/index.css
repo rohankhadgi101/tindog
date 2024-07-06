@@ -6,10 +6,18 @@ body{
         height: 100vh;
         display: flex;
         align-items: flex-end;
+        
     }
+}
+@media(max-width: 991px){
+    .gradient-background{
+        text-align: center;
+    }
+
 }
 
 .gradient-background{
+
     background: linear-gradient(300deg, #f0bd7a, #e0118b);
     background-size: 200% 200%;
     animation: gradient-animation 5s ease infinite;
